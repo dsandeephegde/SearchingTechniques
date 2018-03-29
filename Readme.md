@@ -7,3 +7,17 @@ Goal: To investigate time efficiency issues associated with in-memory versus dis
 - In-Memory Binary Search
 - On-Disk Linear Search
 - On-Disk Binary Search
+
+*Program Execution*
+
+`
+cc main.c
+`
+
+`
+./a.out searchMode keyFileName seekFileName
+`
+
+Example: 
+
+`./a.out --disk-lin key.db seek.db`
