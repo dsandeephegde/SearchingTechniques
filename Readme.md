@@ -21,3 +21,5 @@ cc main.c
 Example: 
 
 `./a.out --disk-lin key.db seek.db`
+
+Expected output for key.db and seek.db is in output.txt (only the time varies for different search modes)
